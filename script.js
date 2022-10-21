@@ -41,7 +41,7 @@ let highRatings = (rating) => {
     console.log("printing movie that has a rating higher than " + rating);
     for(var i = 0; i < allMovies.length; i++){
         if(allMovies[i].rating > rating){
-            console.log("Title: "+ allMovies[i].title);
+            console.log( allMovies[i].title + " has a rating of " + allMovies[i].rating);
             counter++;
         }
     }
